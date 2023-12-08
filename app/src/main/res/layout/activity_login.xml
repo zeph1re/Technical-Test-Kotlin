@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".view.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Page"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:id="@+id/login_email_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Input Email"
+            android:layout_marginBottom="10dp"
+            android:paddingHorizontal="16dp"
+            android:background="@drawable/input_text"
+            />
+
+        <EditText
+            android:id="@+id/login_password_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Input Password"
+            android:layout_marginBottom="10dp"
+            android:paddingHorizontal="16dp"
+            android:background="@drawable/input_text"
+            />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/register_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doesn't have account? REGISTER HERE"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

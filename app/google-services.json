@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "983248234075",
+    "project_id": "tryauthfan",
+    "storage_bucket": "tryauthfan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983248234075:android:cb95ef026cebffcd7a817e",
+        "android_client_info": {
+          "package_name": "com.example.firebaseauthfan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe2jApT_oSEkONEyAja6XrG1ET4YF2gSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
